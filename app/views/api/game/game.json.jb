@@ -1,0 +1,5 @@
+if @name[0] == "a"
+  statement = "Hey, your name starts with the first letter of the alphabet!"
+end
+
+statement

@@ -3,7 +3,10 @@ Rails.application.routes.draw do
   # get "/photos" => "photos#index"
 
   # EXAMPLE JSON ROUTE WITH API NAMESPACE
-  # namespace :api do
+  namespace :api do
+    get '/game' => 'game#game'
+    get '/guessing_game' => 'game#guessing_game'
+  end
   #   get "/photos" => "photos#index"
   # end
 end
